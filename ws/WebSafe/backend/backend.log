@@ -1,0 +1,506 @@
+2026-02-22 18:39:15,605 - INFO - Starting WebSafe Detection API...
+2026-02-22 18:39:23,190 - INFO - CatBoost model loaded successfully
+2026-02-22 18:39:23,509 - WARNING -  * Debugger is active!
+2026-02-22 18:39:23,627 - INFO -  * Debugger PIN: 258-754-254
+2026-02-22 18:39:37,682 - DEBUG - Starting new HTTPS connection (1): grok.com:443
+2026-02-22 18:39:39,618 - DEBUG - https://grok.com:443 "HEAD /c/68fc652d-a021-4278-a64c-c8a2ca3b8099?rid=8680b346-a6b2-4e56-9996-7c8a356c73d6 HTTP/1.1" 403 0
+2026-02-22 18:39:39,641 - DEBUG - Starting new HTTPS connection (1): grok.com:443
+2026-02-22 18:39:42,121 - DEBUG - https://grok.com:443 "GET /c/68fc652d-a021-4278-a64c-c8a2ca3b8099?rid=8680b346-a6b2-4e56-9996-7c8a356c73d6 HTTP/1.1" 403 None
+2026-02-22 18:39:42,246 - DEBUG - Features extracted for https://grok.com/c/68fc652d-a021-4278-a64c-c8a2ca3b8099?rid=8680b346-a6b2-4e56-9996-7c8a356c73d6: {'url_length': 96, 'has_at_symbol': 0, 'has_dash': 0, 'subdomain_count': 0, 'is_https': 1, 'has_ip_address': 0, 'domain_age_days': 216, 'redirect_count': 0, 'has_login_form': 0, 'has_iframe': 0, 'suspicious_words_count': 0}
+2026-02-22 18:39:42,473 - INFO - URL: https://grok.com/c/68fc652d-a021-4278-a64c-c8a2ca3b8099?rid=8680b346-a6b2-4e56-9996-7c8a356c73d6 | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-02-22 18:39:42,476 - INFO - 127.0.0.1 - - [22/Feb/2026 18:39:42] "POST /predict HTTP/1.1" 200 -
+2026-02-22 18:39:44,846 - DEBUG - Starting new HTTPS connection (1): grok.com:443
+2026-02-22 18:39:47,388 - DEBUG - https://grok.com:443 "HEAD /c/68fc652d-a021-4278-a64c-c8a2ca3b8099?rid=8680b346-a6b2-4e56-9996-7c8a356c73d6 HTTP/1.1" 403 0
+2026-02-22 18:39:47,405 - DEBUG - Starting new HTTPS connection (1): grok.com:443
+2026-02-22 18:39:48,887 - DEBUG - https://grok.com:443 "GET /c/68fc652d-a021-4278-a64c-c8a2ca3b8099?rid=8680b346-a6b2-4e56-9996-7c8a356c73d6 HTTP/1.1" 403 None
+2026-02-22 18:39:48,896 - DEBUG - Features extracted for https://grok.com/c/68fc652d-a021-4278-a64c-c8a2ca3b8099?rid=8680b346-a6b2-4e56-9996-7c8a356c73d6: {'url_length': 96, 'has_at_symbol': 0, 'has_dash': 0, 'subdomain_count': 0, 'is_https': 1, 'has_ip_address': 0, 'domain_age_days': 216, 'redirect_count': 0, 'has_login_form': 0, 'has_iframe': 0, 'suspicious_words_count': 0}
+2026-02-22 18:39:48,996 - INFO - URL: https://grok.com/c/68fc652d-a021-4278-a64c-c8a2ca3b8099?rid=8680b346-a6b2-4e56-9996-7c8a356c73d6 | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-02-22 18:39:48,999 - INFO - 127.0.0.1 - - [22/Feb/2026 18:39:48] "POST /predict HTTP/1.1" 200 -
+2026-02-22 18:51:18,263 - INFO -  * Detected change in 'C:\\Users\\USER\\Desktop\\ws\\websafe\\backend\\app.py', reloading
+2026-02-22 18:51:28,341 - INFO - Starting WebSafe Detection API...
+2026-02-22 18:51:35,529 - INFO - CatBoost model loaded successfully
+2026-02-22 18:51:35,708 - WARNING -  * Debugger is active!
+2026-02-22 18:51:35,773 - INFO -  * Debugger PIN: 258-754-254
+2026-02-22 18:51:52,654 - DEBUG - Starting new HTTPS connection (1): grok.com:443
+2026-02-22 18:51:54,665 - DEBUG - https://grok.com:443 "HEAD /c/68fc652d-a021-4278-a64c-c8a2ca3b8099?rid=59d6100a-de99-4271-91f3-70e6b7f6cc6d HTTP/1.1" 403 0
+2026-02-22 18:51:54,676 - DEBUG - Starting new HTTPS connection (1): grok.com:443
+2026-02-22 18:51:57,090 - DEBUG - https://grok.com:443 "GET /c/68fc652d-a021-4278-a64c-c8a2ca3b8099?rid=59d6100a-de99-4271-91f3-70e6b7f6cc6d HTTP/1.1" 403 None
+2026-02-22 18:51:57,202 - DEBUG - Features extracted for https://grok.com/c/68fc652d-a021-4278-a64c-c8a2ca3b8099?rid=59d6100a-de99-4271-91f3-70e6b7f6cc6d: {'url_length': 96, 'has_at_symbol': 0, 'has_dash': 0, 'subdomain_count': 0, 'is_https': 1, 'has_ip_address': 0, 'domain_age_days': 91, 'redirect_count': 0, 'has_login_form': 0, 'has_iframe': 0, 'suspicious_words_count': 0}
+2026-02-22 18:51:57,457 - INFO - URL: https://grok.com/c/68fc652d-a021-4278-a64c-c8a2ca3b8099?rid=59d6100a-de99-4271-91f3-70e6b7f6cc6d | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-02-22 18:51:57,462 - INFO - 127.0.0.1 - - [22/Feb/2026 18:51:57] "POST /predict HTTP/1.1" 200 -
+2026-02-22 18:55:19,987 - INFO -  * Detected change in 'C:\\Users\\USER\\Desktop\\ws\\websafe\\backend\\app.py', reloading
+2026-02-22 18:55:28,888 - INFO - Starting WebSafe Detection API...
+2026-02-22 18:55:35,749 - INFO - CatBoost model loaded successfully
+2026-02-22 18:55:35,918 - WARNING -  * Debugger is active!
+2026-02-22 18:55:35,951 - INFO -  * Debugger PIN: 258-754-254
+2026-02-22 18:55:54,911 - DEBUG - Starting new HTTPS connection (1): grok.com:443
+2026-02-22 18:55:57,371 - DEBUG - https://grok.com:443 "HEAD /c/68fc652d-a021-4278-a64c-c8a2ca3b8099?rid=59d6100a-de99-4271-91f3-70e6b7f6cc6d HTTP/1.1" 403 0
+2026-02-22 18:55:57,381 - DEBUG - Starting new HTTPS connection (1): grok.com:443
+2026-02-22 18:55:59,008 - DEBUG - https://grok.com:443 "GET /c/68fc652d-a021-4278-a64c-c8a2ca3b8099?rid=59d6100a-de99-4271-91f3-70e6b7f6cc6d HTTP/1.1" 403 None
+2026-02-22 18:55:59,028 - DEBUG - Features extracted for https://grok.com/c/68fc652d-a021-4278-a64c-c8a2ca3b8099?rid=59d6100a-de99-4271-91f3-70e6b7f6cc6d: {'url_length': 96, 'has_at_symbol': 0, 'has_dash': 0, 'subdomain_count': 0, 'is_https': 1, 'has_ip_address': 0, 'domain_age_days': 309, 'redirect_count': 0, 'has_login_form': 0, 'has_iframe': 0, 'suspicious_words_count': 0}
+2026-02-22 18:55:59,311 - INFO - URL: https://grok.com/c/68fc652d-a021-4278-a64c-c8a2ca3b8099?rid=59d6100a-de99-4271-91f3-70e6b7f6cc6d | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-02-22 18:55:59,314 - INFO - 127.0.0.1 - - [22/Feb/2026 18:55:59] "POST /predict HTTP/1.1" 200 -
+2026-02-22 18:57:41,325 - INFO -  * Detected change in 'C:\\Users\\USER\\Desktop\\ws\\websafe\\backend\\app.py', reloading
+2026-02-22 18:57:51,133 - INFO - Starting WebSafe Detection API...
+2026-02-22 18:57:57,873 - INFO - CatBoost model loaded successfully
+2026-02-22 18:57:58,072 - WARNING -  * Debugger is active!
+2026-02-22 18:57:58,098 - INFO -  * Debugger PIN: 258-754-254
+2026-02-22 18:58:14,160 - DEBUG - Starting new HTTPS connection (1): www.google.com:443
+2026-02-22 18:58:17,210 - DEBUG - https://www.google.com:443 "HEAD / HTTP/1.1" 200 0
+2026-02-22 18:58:17,220 - DEBUG - Starting new HTTPS connection (1): www.google.com:443
+2026-02-22 18:58:19,045 - DEBUG - https://www.google.com:443 "GET / HTTP/1.1" 200 None
+2026-02-22 18:58:19,298 - DEBUG - Features extracted for https://www.google.com: {'url_length': 22, 'has_at_symbol': 0, 'has_dash': 0, 'subdomain_count': 1, 'is_https': 1, 'has_ip_address': 0, 'domain_age_days': 162, 'redirect_count': 0, 'has_login_form': 0, 'has_iframe': 0, 'suspicious_words_count': 0}
+2026-02-22 18:58:19,375 - INFO - URL: https://www.google.com | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-02-22 18:58:19,376 - WARNING - FORCED HIGH SCORE because all rule-based params are safe
+2026-02-22 18:58:19,378 - INFO - 127.0.0.1 - - [22/Feb/2026 18:58:19] "POST /predict HTTP/1.1" 200 -
+2026-02-22 18:59:33,694 - DEBUG - Starting new HTTPS connection (1): grok.com:443
+2026-02-22 18:59:35,490 - DEBUG - https://grok.com:443 "HEAD /c/68fc652d-a021-4278-a64c-c8a2ca3b8099?rid=b7f3350c-39fe-4d4a-97f6-ce57df983d87 HTTP/1.1" 403 0
+2026-02-22 18:59:35,501 - DEBUG - Starting new HTTPS connection (1): grok.com:443
+2026-02-22 18:59:38,338 - DEBUG - https://grok.com:443 "GET /c/68fc652d-a021-4278-a64c-c8a2ca3b8099?rid=b7f3350c-39fe-4d4a-97f6-ce57df983d87 HTTP/1.1" 403 None
+2026-02-22 18:59:38,351 - DEBUG - Features extracted for https://grok.com/c/68fc652d-a021-4278-a64c-c8a2ca3b8099?rid=b7f3350c-39fe-4d4a-97f6-ce57df983d87: {'url_length': 96, 'has_at_symbol': 0, 'has_dash': 0, 'subdomain_count': 0, 'is_https': 1, 'has_ip_address': 0, 'domain_age_days': 156, 'redirect_count': 0, 'has_login_form': 0, 'has_iframe': 0, 'suspicious_words_count': 0}
+2026-02-22 18:59:38,437 - INFO - URL: https://grok.com/c/68fc652d-a021-4278-a64c-c8a2ca3b8099?rid=b7f3350c-39fe-4d4a-97f6-ce57df983d87 | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-02-22 18:59:38,438 - WARNING - FORCED HIGH SCORE because all rule-based params are safe
+2026-02-22 18:59:38,443 - INFO - 127.0.0.1 - - [22/Feb/2026 18:59:38] "POST /predict HTTP/1.1" 200 -
+2026-02-22 18:59:57,751 - DEBUG - Starting new HTTPS connection (1): grok.com:443
+2026-02-22 19:00:00,446 - DEBUG - https://grok.com:443 "HEAD /c/68fc652d-a021-4278-a64c-c8a2ca3b8099?rid=b7f3350c-39fe-4d4a-97f6-ce57df983d87 HTTP/1.1" 403 0
+2026-02-22 19:00:00,464 - DEBUG - Starting new HTTPS connection (1): grok.com:443
+2026-02-22 19:00:02,012 - DEBUG - https://grok.com:443 "GET /c/68fc652d-a021-4278-a64c-c8a2ca3b8099?rid=b7f3350c-39fe-4d4a-97f6-ce57df983d87 HTTP/1.1" 403 None
+2026-02-22 19:00:02,020 - DEBUG - Features extracted for https://grok.com/c/68fc652d-a021-4278-a64c-c8a2ca3b8099?rid=b7f3350c-39fe-4d4a-97f6-ce57df983d87: {'url_length': 96, 'has_at_symbol': 0, 'has_dash': 0, 'subdomain_count': 0, 'is_https': 1, 'has_ip_address': 0, 'domain_age_days': 156, 'redirect_count': 0, 'has_login_form': 0, 'has_iframe': 0, 'suspicious_words_count': 0}
+2026-02-22 19:00:02,132 - INFO - URL: https://grok.com/c/68fc652d-a021-4278-a64c-c8a2ca3b8099?rid=b7f3350c-39fe-4d4a-97f6-ce57df983d87 | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-02-22 19:00:02,133 - WARNING - FORCED HIGH SCORE because all rule-based params are safe
+2026-02-22 19:00:02,134 - INFO - 127.0.0.1 - - [22/Feb/2026 19:00:02] "POST /predict HTTP/1.1" 200 -
+2026-02-22 19:03:33,341 - DEBUG - Starting new HTTPS connection (1): chrome:443
+2026-02-22 19:03:36,213 - WARNING - Failed to count redirects for https://chrome://newtab/: HTTPSConnectionPool(host='chrome', port=443): Max retries exceeded with url: /newtab/ (Caused by NameResolutionError("HTTPSConnection(host='chrome', port=443): Failed to resolve 'chrome' ([Errno 11001] getaddrinfo failed)"))
+2026-02-22 19:03:36,219 - DEBUG - Starting new HTTPS connection (1): chrome:443
+2026-02-22 19:03:38,930 - WARNING - Page analysis failed for https://chrome://newtab/: HTTPSConnectionPool(host='chrome', port=443): Max retries exceeded with url: /newtab/ (Caused by NameResolutionError("HTTPSConnection(host='chrome', port=443): Failed to resolve 'chrome' ([Errno 11001] getaddrinfo failed)"))
+2026-02-22 19:03:38,933 - DEBUG - Features extracted for https://chrome://newtab/: {'url_length': 24, 'has_at_symbol': 0, 'has_dash': 0, 'subdomain_count': 0, 'is_https': 1, 'has_ip_address': 0, 'domain_age_days': 127, 'redirect_count': 0, 'has_login_form': 0, 'has_iframe': 0, 'suspicious_words_count': 0}
+2026-02-22 19:03:39,355 - INFO - URL: https://chrome://newtab/ | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-02-22 19:03:39,357 - WARNING - FORCED HIGH SCORE because all rule-based params are safe
+2026-02-22 19:03:39,388 - INFO - 127.0.0.1 - - [22/Feb/2026 19:03:39] "POST /predict HTTP/1.1" 200 -
+2026-02-22 19:03:44,242 - DEBUG - Starting new HTTPS connection (1): www.google.com:443
+2026-02-22 19:03:47,182 - DEBUG - https://www.google.com:443 "HEAD / HTTP/1.1" 200 0
+2026-02-22 19:03:47,196 - DEBUG - Starting new HTTPS connection (1): www.google.com:443
+2026-02-22 19:03:48,996 - DEBUG - https://www.google.com:443 "GET / HTTP/1.1" 200 None
+2026-02-22 19:03:49,131 - DEBUG - Features extracted for https://www.google.com: {'url_length': 22, 'has_at_symbol': 0, 'has_dash': 0, 'subdomain_count': 1, 'is_https': 1, 'has_ip_address': 0, 'domain_age_days': 162, 'redirect_count': 0, 'has_login_form': 0, 'has_iframe': 0, 'suspicious_words_count': 0}
+2026-02-22 19:03:49,193 - INFO - URL: https://www.google.com | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-02-22 19:03:49,194 - WARNING - FORCED HIGH SCORE because all rule-based params are safe
+2026-02-22 19:03:49,196 - INFO - 127.0.0.1 - - [22/Feb/2026 19:03:49] "POST /predict HTTP/1.1" 200 -
+2026-02-22 19:04:05,499 - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2026-02-22 19:04:05,922 - DEBUG - http://www.google.com:80 "HEAD / HTTP/1.1" 200 0
+2026-02-22 19:04:05,926 - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2026-02-22 19:04:06,449 - DEBUG - http://www.google.com:80 "GET / HTTP/1.1" 200 None
+2026-02-22 19:04:06,554 - DEBUG - Features extracted for http://www.google.com: {'url_length': 21, 'has_at_symbol': 0, 'has_dash': 0, 'subdomain_count': 1, 'is_https': 0, 'has_ip_address': 0, 'domain_age_days': 162, 'redirect_count': 0, 'has_login_form': 0, 'has_iframe': 0, 'suspicious_words_count': 0}
+2026-02-22 19:04:06,803 - INFO - URL: http://www.google.com | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-02-22 19:04:06,806 - INFO - 127.0.0.1 - - [22/Feb/2026 19:04:06] "POST /predict HTTP/1.1" 200 -
+2026-02-22 19:04:10,268 - DEBUG - Starting new HTTPS connection (1): www.google.com:443
+2026-02-22 19:04:12,405 - DEBUG - https://www.google.com:443 "HEAD / HTTP/1.1" 200 0
+2026-02-22 19:04:12,427 - DEBUG - Starting new HTTPS connection (1): www.google.com:443
+2026-02-22 19:04:14,388 - DEBUG - https://www.google.com:443 "GET / HTTP/1.1" 200 None
+2026-02-22 19:04:14,455 - DEBUG - Features extracted for https://www.google.com: {'url_length': 22, 'has_at_symbol': 0, 'has_dash': 0, 'subdomain_count': 1, 'is_https': 1, 'has_ip_address': 0, 'domain_age_days': 162, 'redirect_count': 0, 'has_login_form': 0, 'has_iframe': 0, 'suspicious_words_count': 0}
+2026-02-22 19:04:14,530 - INFO - URL: https://www.google.com | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-02-22 19:04:14,531 - WARNING - FORCED HIGH SCORE because all rule-based params are safe
+2026-02-22 19:04:14,533 - INFO - 127.0.0.1 - - [22/Feb/2026 19:04:14] "POST /predict HTTP/1.1" 200 -
+2026-02-22 19:04:32,300 - DEBUG - Starting new HTTPS connection (1): www.google.com:443
+2026-02-22 19:04:35,093 - DEBUG - https://www.google.com:443 "HEAD / HTTP/1.1" 200 0
+2026-02-22 19:04:35,099 - DEBUG - Starting new HTTPS connection (1): www.google.com:443
+2026-02-22 19:04:36,948 - DEBUG - https://www.google.com:443 "GET / HTTP/1.1" 200 None
+2026-02-22 19:04:37,013 - DEBUG - Features extracted for https://www.google.com: {'url_length': 22, 'has_at_symbol': 0, 'has_dash': 0, 'subdomain_count': 1, 'is_https': 1, 'has_ip_address': 0, 'domain_age_days': 162, 'redirect_count': 0, 'has_login_form': 0, 'has_iframe': 0, 'suspicious_words_count': 0}
+2026-02-22 19:04:37,079 - INFO - URL: https://www.google.com | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-02-22 19:04:37,080 - WARNING - FORCED HIGH SCORE because all rule-based params are safe
+2026-02-22 19:04:37,081 - INFO - 127.0.0.1 - - [22/Feb/2026 19:04:37] "POST /predict HTTP/1.1" 200 -
+2026-02-22 19:04:41,478 - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2026-02-22 19:04:41,951 - DEBUG - http://www.google.com:80 "HEAD / HTTP/1.1" 200 0
+2026-02-22 19:04:41,956 - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2026-02-22 19:04:42,488 - DEBUG - http://www.google.com:80 "GET / HTTP/1.1" 200 None
+2026-02-22 19:04:42,554 - DEBUG - Features extracted for http://www.google.com: {'url_length': 21, 'has_at_symbol': 0, 'has_dash': 0, 'subdomain_count': 1, 'is_https': 0, 'has_ip_address': 0, 'domain_age_days': 162, 'redirect_count': 0, 'has_login_form': 0, 'has_iframe': 0, 'suspicious_words_count': 0}
+2026-02-22 19:04:42,624 - INFO - URL: http://www.google.com | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-02-22 19:04:42,626 - INFO - 127.0.0.1 - - [22/Feb/2026 19:04:42] "POST /predict HTTP/1.1" 200 -
+2026-02-22 19:06:16,425 - DEBUG - Starting new HTTP connection (1): signin.eby.de.zukruygxctzmmqi.civpro.co.za:80
+2026-02-22 19:06:16,657 - WARNING - Failed to count redirects for http://signin.eby.de.zukruygxctzmmqi.civpro.co.za: HTTPConnectionPool(host='signin.eby.de.zukruygxctzmmqi.civpro.co.za', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host='signin.eby.de.zukruygxctzmmqi.civpro.co.za', port=80): Failed to resolve 'signin.eby.de.zukruygxctzmmqi.civpro.co.za' ([Errno 11001] getaddrinfo failed)"))
+2026-02-22 19:06:16,668 - DEBUG - Starting new HTTP connection (1): signin.eby.de.zukruygxctzmmqi.civpro.co.za:80
+2026-02-22 19:06:16,683 - WARNING - Page analysis failed for http://signin.eby.de.zukruygxctzmmqi.civpro.co.za: HTTPConnectionPool(host='signin.eby.de.zukruygxctzmmqi.civpro.co.za', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host='signin.eby.de.zukruygxctzmmqi.civpro.co.za', port=80): Failed to resolve 'signin.eby.de.zukruygxctzmmqi.civpro.co.za' ([Errno 11001] getaddrinfo failed)"))
+2026-02-22 19:06:16,685 - DEBUG - Features extracted for http://signin.eby.de.zukruygxctzmmqi.civpro.co.za: {'url_length': 49, 'has_at_symbol': 0, 'has_dash': 0, 'subdomain_count': 5, 'is_https': 0, 'has_ip_address': 0, 'domain_age_days': 149, 'redirect_count': 0, 'has_login_form': 0, 'has_iframe': 0, 'suspicious_words_count': 0}
+2026-02-22 19:06:16,903 - INFO - URL: http://signin.eby.de.zukruygxctzmmqi.civpro.co.za | Raw prediction: 0 | Probabilities: [0.57, 0.43]
+2026-02-22 19:06:16,906 - INFO - 127.0.0.1 - - [22/Feb/2026 19:06:16] "POST /predict HTTP/1.1" 200 -
+2026-02-22 19:06:22,419 - DEBUG - Starting new HTTPS connection (1): signin.eby.de.zukruygxctzmmqi.civpro.co.za:443
+2026-02-22 19:06:22,517 - WARNING - Failed to count redirects for https://signin.eby.de.zukruygxctzmmqi.civpro.co.za: HTTPSConnectionPool(host='signin.eby.de.zukruygxctzmmqi.civpro.co.za', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host='signin.eby.de.zukruygxctzmmqi.civpro.co.za', port=443): Failed to resolve 'signin.eby.de.zukruygxctzmmqi.civpro.co.za' ([Errno 11001] getaddrinfo failed)"))
+2026-02-22 19:06:22,521 - DEBUG - Starting new HTTPS connection (1): signin.eby.de.zukruygxctzmmqi.civpro.co.za:443
+2026-02-22 19:06:22,524 - WARNING - Page analysis failed for https://signin.eby.de.zukruygxctzmmqi.civpro.co.za: HTTPSConnectionPool(host='signin.eby.de.zukruygxctzmmqi.civpro.co.za', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host='signin.eby.de.zukruygxctzmmqi.civpro.co.za', port=443): Failed to resolve 'signin.eby.de.zukruygxctzmmqi.civpro.co.za' ([Errno 11001] getaddrinfo failed)"))
+2026-02-22 19:06:22,525 - DEBUG - Features extracted for https://signin.eby.de.zukruygxctzmmqi.civpro.co.za: {'url_length': 50, 'has_at_symbol': 0, 'has_dash': 0, 'subdomain_count': 5, 'is_https': 1, 'has_ip_address': 0, 'domain_age_days': 149, 'redirect_count': 0, 'has_login_form': 0, 'has_iframe': 0, 'suspicious_words_count': 0}
+2026-02-22 19:06:22,607 - INFO - URL: https://signin.eby.de.zukruygxctzmmqi.civpro.co.za | Raw prediction: 0 | Probabilities: [0.57, 0.43]
+2026-02-22 19:06:22,609 - INFO - 127.0.0.1 - - [22/Feb/2026 19:06:22] "POST /predict HTTP/1.1" 200 -
+2026-02-22 19:06:23,983 - DEBUG - Starting new HTTPS connection (1): signin.eby.de.zukruygxctzmmqi.civpro.co.za:443
+2026-02-22 19:06:23,985 - WARNING - Failed to count redirects for https://signin.eby.de.zukruygxctzmmqi.civpro.co.za: HTTPSConnectionPool(host='signin.eby.de.zukruygxctzmmqi.civpro.co.za', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host='signin.eby.de.zukruygxctzmmqi.civpro.co.za', port=443): Failed to resolve 'signin.eby.de.zukruygxctzmmqi.civpro.co.za' ([Errno 11001] getaddrinfo failed)"))
+2026-02-22 19:06:23,988 - DEBUG - Starting new HTTPS connection (1): signin.eby.de.zukruygxctzmmqi.civpro.co.za:443
+2026-02-22 19:06:23,997 - WARNING - Page analysis failed for https://signin.eby.de.zukruygxctzmmqi.civpro.co.za: HTTPSConnectionPool(host='signin.eby.de.zukruygxctzmmqi.civpro.co.za', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host='signin.eby.de.zukruygxctzmmqi.civpro.co.za', port=443): Failed to resolve 'signin.eby.de.zukruygxctzmmqi.civpro.co.za' ([Errno 11001] getaddrinfo failed)"))
+2026-02-22 19:06:23,999 - DEBUG - Features extracted for https://signin.eby.de.zukruygxctzmmqi.civpro.co.za: {'url_length': 50, 'has_at_symbol': 0, 'has_dash': 0, 'subdomain_count': 5, 'is_https': 1, 'has_ip_address': 0, 'domain_age_days': 149, 'redirect_count': 0, 'has_login_form': 0, 'has_iframe': 0, 'suspicious_words_count': 0}
+2026-02-22 19:06:24,107 - INFO - URL: https://signin.eby.de.zukruygxctzmmqi.civpro.co.za | Raw prediction: 0 | Probabilities: [0.57, 0.43]
+2026-02-22 19:06:24,108 - INFO - 127.0.0.1 - - [22/Feb/2026 19:06:24] "POST /predict HTTP/1.1" 200 -
+2026-02-22 19:06:28,585 - INFO - 127.0.0.1 - - [22/Feb/2026 19:06:28] "[31m[1mPOST /predict HTTP/1.1[0m" 400 -
+2026-02-22 19:06:35,501 - INFO - 127.0.0.1 - - [22/Feb/2026 19:06:35] "[31m[1mPOST /predict HTTP/1.1[0m" 400 -
+2026-02-22 19:06:51,435 - DEBUG - Starting new HTTPS connection (1): chrome:443
+2026-02-22 19:06:54,240 - WARNING - Failed to count redirects for https://chrome://newtab/: HTTPSConnectionPool(host='chrome', port=443): Max retries exceeded with url: /newtab/ (Caused by NameResolutionError("HTTPSConnection(host='chrome', port=443): Failed to resolve 'chrome' ([Errno 11001] getaddrinfo failed)"))
+2026-02-22 19:06:54,255 - DEBUG - Starting new HTTPS connection (1): chrome:443
+2026-02-22 19:06:57,025 - WARNING - Page analysis failed for https://chrome://newtab/: HTTPSConnectionPool(host='chrome', port=443): Max retries exceeded with url: /newtab/ (Caused by NameResolutionError("HTTPSConnection(host='chrome', port=443): Failed to resolve 'chrome' ([Errno 11001] getaddrinfo failed)"))
+2026-02-22 19:06:57,026 - DEBUG - Features extracted for https://chrome://newtab/: {'url_length': 24, 'has_at_symbol': 0, 'has_dash': 0, 'subdomain_count': 0, 'is_https': 1, 'has_ip_address': 0, 'domain_age_days': 127, 'redirect_count': 0, 'has_login_form': 0, 'has_iframe': 0, 'suspicious_words_count': 0}
+2026-02-22 19:06:57,119 - INFO - URL: https://chrome://newtab/ | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-02-22 19:06:57,119 - WARNING - FORCED HIGH SCORE because all rule-based params are safe
+2026-02-22 19:06:57,121 - INFO - 127.0.0.1 - - [22/Feb/2026 19:06:57] "POST /predict HTTP/1.1" 200 -
+2026-02-22 19:06:59,976 - INFO - 127.0.0.1 - - [22/Feb/2026 19:06:59] "[31m[1mPOST /predict HTTP/1.1[0m" 400 -
+2026-02-22 19:07:05,064 - INFO - 127.0.0.1 - - [22/Feb/2026 19:07:05] "[31m[1mPOST /predict HTTP/1.1[0m" 400 -
+2026-02-22 19:07:12,919 - DEBUG - Starting new HTTP connection (1): www.retajconsultancy.com:80
+2026-02-22 19:07:13,106 - WARNING - Failed to count redirects for http://www.retajconsultancy.com: HTTPConnectionPool(host='www.retajconsultancy.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host='www.retajconsultancy.com', port=80): Failed to resolve 'www.retajconsultancy.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-22 19:07:13,108 - DEBUG - Starting new HTTP connection (1): www.retajconsultancy.com:80
+2026-02-22 19:07:13,110 - WARNING - Page analysis failed for http://www.retajconsultancy.com: HTTPConnectionPool(host='www.retajconsultancy.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host='www.retajconsultancy.com', port=80): Failed to resolve 'www.retajconsultancy.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-22 19:07:13,111 - DEBUG - Features extracted for http://www.retajconsultancy.com: {'url_length': 31, 'has_at_symbol': 0, 'has_dash': 0, 'subdomain_count': 1, 'is_https': 0, 'has_ip_address': 0, 'domain_age_days': 70, 'redirect_count': 0, 'has_login_form': 0, 'has_iframe': 0, 'suspicious_words_count': 0}
+2026-02-22 19:07:13,200 - INFO - URL: http://www.retajconsultancy.com | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-02-22 19:07:13,203 - INFO - 127.0.0.1 - - [22/Feb/2026 19:07:13] "POST /predict HTTP/1.1" 200 -
+2026-02-22 19:07:34,391 - DEBUG - Starting new HTTPS connection (1): chrome:443
+2026-02-22 19:07:37,122 - WARNING - Failed to count redirects for https://chrome://newtab/: HTTPSConnectionPool(host='chrome', port=443): Max retries exceeded with url: /newtab/ (Caused by NameResolutionError("HTTPSConnection(host='chrome', port=443): Failed to resolve 'chrome' ([Errno 11001] getaddrinfo failed)"))
+2026-02-22 19:07:37,127 - DEBUG - Starting new HTTPS connection (1): chrome:443
+2026-02-22 19:07:39,852 - WARNING - Page analysis failed for https://chrome://newtab/: HTTPSConnectionPool(host='chrome', port=443): Max retries exceeded with url: /newtab/ (Caused by NameResolutionError("HTTPSConnection(host='chrome', port=443): Failed to resolve 'chrome' ([Errno 11001] getaddrinfo failed)"))
+2026-02-22 19:07:39,854 - DEBUG - Features extracted for https://chrome://newtab/: {'url_length': 24, 'has_at_symbol': 0, 'has_dash': 0, 'subdomain_count': 0, 'is_https': 1, 'has_ip_address': 0, 'domain_age_days': 127, 'redirect_count': 0, 'has_login_form': 0, 'has_iframe': 0, 'suspicious_words_count': 0}
+2026-02-22 19:07:40,013 - INFO - URL: https://chrome://newtab/ | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-02-22 19:07:40,015 - WARNING - FORCED HIGH SCORE because all rule-based params are safe
+2026-02-22 19:07:40,016 - INFO - 127.0.0.1 - - [22/Feb/2026 19:07:40] "POST /predict HTTP/1.1" 200 -
+2026-02-22 19:07:51,496 - DEBUG - Starting new HTTP connection (1): www.bimabn.com:80
+2026-02-22 19:07:51,735 - WARNING - Failed to count redirects for http://www.bimabn.com/1-configurazione-supporto-apple.store-contatta/c/Apple-id/3d465e25b47e6bc23ae55f5de40e1bb1/: HTTPConnectionPool(host='www.bimabn.com', port=80): Max retries exceeded with url: /1-configurazione-supporto-apple.store-contatta/c/Apple-id/3d465e25b47e6bc23ae55f5de40e1bb1/ (Caused by NameResolutionError("HTTPConnection(host='www.bimabn.com', port=80): Failed to resolve 'www.bimabn.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-22 19:07:51,739 - DEBUG - Starting new HTTP connection (1): www.bimabn.com:80
+2026-02-22 19:07:51,742 - WARNING - Page analysis failed for http://www.bimabn.com/1-configurazione-supporto-apple.store-contatta/c/Apple-id/3d465e25b47e6bc23ae55f5de40e1bb1/: HTTPConnectionPool(host='www.bimabn.com', port=80): Max retries exceeded with url: /1-configurazione-supporto-apple.store-contatta/c/Apple-id/3d465e25b47e6bc23ae55f5de40e1bb1/ (Caused by NameResolutionError("HTTPConnection(host='www.bimabn.com', port=80): Failed to resolve 'www.bimabn.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-22 19:07:51,744 - DEBUG - Features extracted for http://www.bimabn.com/1-configurazione-supporto-apple.store-contatta/c/Apple-id/3d465e25b47e6bc23ae55f5de40e1bb1/: {'url_length': 113, 'has_at_symbol': 0, 'has_dash': 0, 'subdomain_count': 1, 'is_https': 0, 'has_ip_address': 0, 'domain_age_days': 319, 'redirect_count': 0, 'has_login_form': 0, 'has_iframe': 0, 'suspicious_words_count': 0}
+2026-02-22 19:07:51,862 - INFO - URL: http://www.bimabn.com/1-configurazione-supporto-apple.store-contatta/c/Apple-id/3d465e25b47e6bc23ae55f5de40e1bb1/ | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-02-22 19:07:51,865 - INFO - 127.0.0.1 - - [22/Feb/2026 19:07:51] "POST /predict HTTP/1.1" 200 -
+2026-02-22 19:12:59,633 - INFO -  * Detected change in 'C:\\Users\\USER\\Desktop\\ws\\websafe\\backend\\app.py', reloading
+2026-02-22 19:13:12,753 - INFO - Starting WebSafe Detection API...
+2026-02-22 19:13:21,143 - INFO - Model loaded successfully
+2026-02-22 19:13:21,144 - WARNING - No feature_scaler.pkl found - running without scaling
+2026-02-22 19:13:21,311 - WARNING -  * Debugger is active!
+2026-02-22 19:13:21,413 - INFO -  * Debugger PIN: 258-754-254
+2026-02-22 19:13:35,540 - DEBUG - Starting new HTTPS connection (1): grok.com:443
+2026-02-22 19:13:38,005 - DEBUG - https://grok.com:443 "HEAD /c/68fc652d-a021-4278-a64c-c8a2ca3b8099?rid=95341e4c-32d1-4b69-85e8-da5543afa025 HTTP/1.1" 403 0
+2026-02-22 19:13:38,016 - DEBUG - Starting new HTTPS connection (1): grok.com:443
+2026-02-22 19:13:39,408 - DEBUG - https://grok.com:443 "GET /c/68fc652d-a021-4278-a64c-c8a2ca3b8099?rid=95341e4c-32d1-4b69-85e8-da5543afa025 HTTP/1.1" 403 None
+2026-02-22 19:13:39,557 - DEBUG - Features extracted for https://grok.com/c/68fc652d-a021-4278-a64c-c8a2ca3b8099?rid=95341e4c-32d1-4b69-85e8-da5543afa025: {'url_length': 96, 'has_at_symbol': 0, 'has_dash': 0, 'subdomain_count': 0, 'is_https': 1, 'has_ip_address': 0, 'domain_age_days': 254, 'redirect_count': 0, 'has_login_form': 0, 'has_iframe': 0, 'suspicious_words_count': 0}
+2026-02-22 19:13:39,781 - INFO - URL: https://grok.com/c/68fc652d-a021-4278-a64c-c8a2ca3b8099?rid=95341e4c-32d1-4b69-85e8-da5543afa025 | Prediction: 0 | Probabilities: [0.62, 0.38] | Features: [96, 0, 0, 0, 1, 254, 0, 0, 0, 0, 0]
+2026-02-22 19:13:39,784 - INFO - 127.0.0.1 - - [22/Feb/2026 19:13:39] "POST /predict HTTP/1.1" 200 -
+2026-02-22 19:13:52,815 - DEBUG - Starting new HTTPS connection (1): www.google.com:443
+2026-02-22 19:13:54,815 - DEBUG - https://www.google.com:443 "HEAD / HTTP/1.1" 200 0
+2026-02-22 19:13:54,823 - DEBUG - Starting new HTTPS connection (1): www.google.com:443
+2026-02-22 19:13:56,695 - DEBUG - https://www.google.com:443 "GET / HTTP/1.1" 200 None
+2026-02-22 19:13:56,772 - DEBUG - Features extracted for https://www.google.com: {'url_length': 22, 'has_at_symbol': 0, 'has_dash': 0, 'subdomain_count': 1, 'is_https': 1, 'has_ip_address': 0, 'domain_age_days': 217, 'redirect_count': 0, 'has_login_form': 0, 'has_iframe': 0, 'suspicious_words_count': 0}
+2026-02-22 19:13:56,851 - INFO - URL: https://www.google.com | Prediction: 0 | Probabilities: [0.62, 0.38] | Features: [22, 0, 0, 1, 1, 217, 0, 0, 0, 0, 0]
+2026-02-22 19:13:56,855 - INFO - 127.0.0.1 - - [22/Feb/2026 19:13:56] "POST /predict HTTP/1.1" 200 -
+2026-02-22 19:14:06,420 - DEBUG - Starting new HTTPS connection (1): www.facebook.com:443
+2026-02-22 19:14:09,235 - DEBUG - https://www.facebook.com:443 "HEAD / HTTP/1.1" 200 0
+2026-02-22 19:14:09,243 - DEBUG - Starting new HTTPS connection (1): www.facebook.com:443
+2026-02-22 19:14:11,386 - DEBUG - https://www.facebook.com:443 "GET / HTTP/1.1" 200 None
+2026-02-22 19:14:12,215 - DEBUG - Features extracted for https://www.facebook.com: {'url_length': 24, 'has_at_symbol': 0, 'has_dash': 0, 'subdomain_count': 1, 'is_https': 1, 'has_ip_address': 0, 'domain_age_days': 345, 'redirect_count': 0, 'has_login_form': 1, 'has_iframe': 0, 'suspicious_words_count': 0}
+2026-02-22 19:14:12,287 - INFO - URL: https://www.facebook.com | Prediction: 0 | Probabilities: [0.62, 0.38] | Features: [24, 0, 0, 1, 1, 345, 0, 0, 1, 0, 0]
+2026-02-22 19:14:12,289 - INFO - 127.0.0.1 - - [22/Feb/2026 19:14:12] "POST /predict HTTP/1.1" 200 -
+2026-02-22 19:14:45,465 - DEBUG - Starting new HTTPS connection (1): www.inkedin.com:443
+2026-02-22 19:14:48,109 - DEBUG - https://www.inkedin.com:443 "HEAD /pub/charles-gariepy/2/642/28 HTTP/1.1" 403 0
+2026-02-22 19:14:48,120 - DEBUG - Starting new HTTPS connection (1): www.inkedin.com:443
+2026-02-22 19:14:49,677 - DEBUG - https://www.inkedin.com:443 "GET /pub/charles-gariepy/2/642/28 HTTP/1.1" 403 None
+2026-02-22 19:14:49,686 - DEBUG - Features extracted for https://www.inkedin.com/pub/charles-gariepy/2/642/28: {'url_length': 52, 'has_at_symbol': 0, 'has_dash': 0, 'subdomain_count': 1, 'is_https': 1, 'has_ip_address': 0, 'domain_age_days': 307, 'redirect_count': 0, 'has_login_form': 0, 'has_iframe': 0, 'suspicious_words_count': 0}
+2026-02-22 19:14:49,768 - INFO - URL: https://www.inkedin.com/pub/charles-gariepy/2/642/28 | Prediction: 0 | Probabilities: [0.62, 0.38] | Features: [52, 0, 0, 1, 1, 307, 0, 0, 0, 0, 0]
+2026-02-22 19:14:49,769 - INFO - 127.0.0.1 - - [22/Feb/2026 19:14:49] "POST /predict HTTP/1.1" 200 -
+2026-02-22 19:17:09,222 - DEBUG - Starting new HTTPS connection (1): www.apas.wb.gov.in:443
+2026-02-22 19:17:14,496 - WARNING - Failed to count redirects for https://www.apas.wb.gov.in: HTTPSConnectionPool(host='www.apas.wb.gov.in', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.apas.wb.gov.in', port=443) at 0x21962a91a90>, 'Connection to www.apas.wb.gov.in timed out. (connect timeout=5)'))
+2026-02-22 19:17:14,502 - DEBUG - Starting new HTTPS connection (1): www.apas.wb.gov.in:443
+2026-02-22 19:17:16,936 - WARNING - Page analysis failed for https://www.apas.wb.gov.in: HTTPSConnectionPool(host='www.apas.wb.gov.in', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1032)')))
+2026-02-22 19:17:16,937 - DEBUG - Features extracted for https://www.apas.wb.gov.in: {'url_length': 26, 'has_at_symbol': 0, 'has_dash': 0, 'subdomain_count': 3, 'is_https': 1, 'has_ip_address': 0, 'domain_age_days': 90, 'redirect_count': 0, 'has_login_form': 0, 'has_iframe': 0, 'suspicious_words_count': 0}
+2026-02-22 19:17:17,031 - INFO - URL: https://www.apas.wb.gov.in | Prediction: 0 | Probabilities: [0.57, 0.43] | Features: [26, 0, 0, 3, 1, 90, 0, 0, 0, 0, 0]
+2026-02-22 19:17:17,037 - INFO - 127.0.0.1 - - [22/Feb/2026 19:17:17] "POST /predict HTTP/1.1" 200 -
+2026-02-22 19:17:38,580 - INFO -  * Detected change in 'C:\\Users\\USER\\Desktop\\ws\\websafe\\backend\\app.py', reloading
+2026-02-22 19:18:43,030 - INFO - Starting WebSafe Detection API...
+2026-02-22 19:18:48,239 - INFO - CatBoost model loaded successfully
+2026-02-22 19:18:48,291 - WARNING -  * Debugger is active!
+2026-02-22 19:18:48,320 - INFO -  * Debugger PIN: 258-754-254
+2026-02-22 19:18:51,190 - DEBUG - Starting new HTTPS connection (1): www.google.com:443
+2026-02-22 19:18:54,076 - DEBUG - https://www.google.com:443 "HEAD / HTTP/1.1" 200 0
+2026-02-22 19:18:54,086 - DEBUG - Starting new HTTPS connection (1): www.google.com:443
+2026-02-22 19:18:55,943 - DEBUG - https://www.google.com:443 "GET / HTTP/1.1" 200 None
+2026-02-22 19:18:56,161 - DEBUG - Features extracted for https://www.google.com: {'url_length': 22, 'has_at_symbol': 0, 'has_dash': 0, 'subdomain_count': 1, 'is_https': 1, 'has_ip_address': 0, 'domain_age_days': 244, 'redirect_count': 0, 'has_login_form': 0, 'has_iframe': 0, 'suspicious_words_count': 0}
+2026-02-22 19:18:56,236 - INFO - URL: https://www.google.com | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-02-22 19:18:56,240 - WARNING - FORCED HIGH SCORE because all rule-based params are safe
+2026-02-22 19:18:56,243 - INFO - 127.0.0.1 - - [22/Feb/2026 19:18:56] "POST /predict HTTP/1.1" 200 -
+2026-02-24 13:02:08,379 - INFO - Starting WebSafe Detection API...
+2026-02-24 13:02:54,724 - INFO - CatBoost model loaded successfully
+2026-02-24 13:02:57,207 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.2:5000
+2026-02-24 13:02:57,209 - INFO - [33mPress CTRL+C to quit[0m
+2026-02-24 13:02:57,233 - INFO -  * Restarting with stat
+2026-02-24 13:03:06,235 - INFO - Starting WebSafe Detection API...
+2026-02-24 13:03:12,037 - INFO - CatBoost model loaded successfully
+2026-02-24 13:03:12,089 - WARNING -  * Debugger is active!
+2026-02-24 13:03:12,255 - INFO -  * Debugger PIN: 129-949-582
+2026-02-24 13:03:15,095 - DEBUG - Starting new HTTPS connection (1): chatgpt.com:443
+2026-02-24 13:03:16,870 - DEBUG - https://chatgpt.com:443 "HEAD /c/699d5293-bf68-8324-8151-a2034f52d759 HTTP/1.1" 403 0
+2026-02-24 13:03:16,878 - DEBUG - Starting new HTTPS connection (1): chatgpt.com:443
+2026-02-24 13:03:18,613 - DEBUG - https://chatgpt.com:443 "GET /c/699d5293-bf68-8324-8151-a2034f52d759 HTTP/1.1" 403 None
+2026-02-24 13:03:18,739 - DEBUG - Features extracted for https://chatgpt.com/c/699d5293-bf68-8324-8151-a2034f52d759: {'url_length': 58, 'has_at_symbol': 0, 'has_dash': 0, 'subdomain_count': 0, 'is_https': 1, 'has_ip_address': 0, 'domain_age_days': 190, 'redirect_count': 0, 'has_login_form': 0, 'has_iframe': 0, 'suspicious_words_count': 0}
+2026-02-24 13:03:18,933 - INFO - URL: https://chatgpt.com/c/699d5293-bf68-8324-8151-a2034f52d759 | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-02-24 13:03:18,934 - WARNING - FORCED HIGH SCORE because all rule-based params are safe
+2026-02-24 13:03:18,936 - INFO - 127.0.0.1 - - [24/Feb/2026 13:03:18] "POST /predict HTTP/1.1" 200 -
+2026-02-24 13:05:34,648 - DEBUG - Starting new HTTPS connection (1): www.google.com:443
+2026-02-24 13:05:36,706 - DEBUG - https://www.google.com:443 "HEAD / HTTP/1.1" 200 0
+2026-02-24 13:05:36,723 - DEBUG - Starting new HTTPS connection (1): www.google.com:443
+2026-02-24 13:05:38,438 - DEBUG - https://www.google.com:443 "GET / HTTP/1.1" 200 None
+2026-02-24 13:05:38,577 - DEBUG - Features extracted for https://www.google.com: {'url_length': 22, 'has_at_symbol': 0, 'has_dash': 0, 'subdomain_count': 1, 'is_https': 1, 'has_ip_address': 0, 'domain_age_days': 189, 'redirect_count': 0, 'has_login_form': 0, 'has_iframe': 0, 'suspicious_words_count': 0}
+2026-02-24 13:05:38,674 - INFO - URL: https://www.google.com | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-02-24 13:05:38,675 - WARNING - FORCED HIGH SCORE because all rule-based params are safe
+2026-02-24 13:05:38,681 - INFO - 127.0.0.1 - - [24/Feb/2026 13:05:38] "POST /predict HTTP/1.1" 200 -
+2026-02-24 13:05:48,842 - DEBUG - Starting new HTTPS connection (1): www.tech2u.com.au:443
+2026-02-24 13:05:51,092 - DEBUG - https://www.tech2u.com.au:443 "HEAD /training/tech2u/win95_1/shut.html HTTP/1.1" 200 0
+2026-02-24 13:05:51,101 - DEBUG - Starting new HTTPS connection (1): www.tech2u.com.au:443
+2026-02-24 13:05:52,933 - DEBUG - https://www.tech2u.com.au:443 "GET /training/tech2u/win95_1/shut.html HTTP/1.1" 200 1280
+2026-02-24 13:05:52,943 - DEBUG - Features extracted for https://www.tech2u.com.au/training/tech2u/win95_1/shut.html: {'url_length': 59, 'has_at_symbol': 0, 'has_dash': 0, 'subdomain_count': 2, 'is_https': 1, 'has_ip_address': 0, 'domain_age_days': 333, 'redirect_count': 0, 'has_login_form': 0, 'has_iframe': 0, 'suspicious_words_count': 0}
+2026-02-24 13:05:53,007 - INFO - URL: https://www.tech2u.com.au/training/tech2u/win95_1/shut.html | Raw prediction: 0 | Probabilities: [0.57, 0.43]
+2026-02-24 13:05:53,011 - INFO - 127.0.0.1 - - [24/Feb/2026 13:05:53] "POST /predict HTTP/1.1" 200 -
+2026-02-24 13:06:13,415 - DEBUG - Starting new HTTP connection (1): hacker.com:80
+2026-02-24 13:06:15,406 - WARNING - Failed to count redirects for http://hacker.com: HTTPConnectionPool(host='hacker.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host='hacker.com', port=80): Failed to resolve 'hacker.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-24 13:06:15,409 - DEBUG - Starting new HTTP connection (1): hacker.com:80
+2026-02-24 13:06:15,410 - WARNING - Page analysis failed for http://hacker.com: HTTPConnectionPool(host='hacker.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host='hacker.com', port=80): Failed to resolve 'hacker.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-24 13:06:15,411 - DEBUG - Features extracted for http://hacker.com: {'url_length': 17, 'has_at_symbol': 0, 'has_dash': 0, 'subdomain_count': 0, 'is_https': 0, 'has_ip_address': 0, 'domain_age_days': 126, 'redirect_count': 0, 'has_login_form': 0, 'has_iframe': 0, 'suspicious_words_count': 0}
+2026-02-24 13:06:15,478 - INFO - URL: http://hacker.com | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-02-24 13:06:15,479 - INFO - 127.0.0.1 - - [24/Feb/2026 13:06:15] "POST /predict HTTP/1.1" 200 -
+2026-02-24 13:06:20,057 - DEBUG - Starting new HTTPS connection (1): hacker.com:443
+2026-02-24 13:06:20,200 - WARNING - Failed to count redirects for https://hacker.com: HTTPSConnectionPool(host='hacker.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host='hacker.com', port=443): Failed to resolve 'hacker.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-24 13:06:20,204 - DEBUG - Starting new HTTPS connection (1): hacker.com:443
+2026-02-24 13:06:20,206 - WARNING - Page analysis failed for https://hacker.com: HTTPSConnectionPool(host='hacker.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host='hacker.com', port=443): Failed to resolve 'hacker.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-24 13:06:20,206 - DEBUG - Features extracted for https://hacker.com: {'url_length': 18, 'has_at_symbol': 0, 'has_dash': 0, 'subdomain_count': 0, 'is_https': 1, 'has_ip_address': 0, 'domain_age_days': 126, 'redirect_count': 0, 'has_login_form': 0, 'has_iframe': 0, 'suspicious_words_count': 0}
+2026-02-24 13:06:20,270 - INFO - URL: https://hacker.com | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-02-24 13:06:20,272 - WARNING - FORCED HIGH SCORE because all rule-based params are safe
+2026-02-24 13:06:20,273 - INFO - 127.0.0.1 - - [24/Feb/2026 13:06:20] "POST /predict HTTP/1.1" 200 -
+2026-02-24 13:06:37,437 - DEBUG - Starting new HTTPS connection (1): darkweb.com:443
+2026-02-24 13:06:43,824 - WARNING - Failed to count redirects for https://darkweb.com: HTTPSConnectionPool(host='darkweb.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host='darkweb.com', port=443): Failed to resolve 'darkweb.com' ([Errno 11002] getaddrinfo failed)"))
+2026-02-24 13:06:43,828 - DEBUG - Starting new HTTPS connection (1): darkweb.com:443
+2026-02-24 13:06:43,829 - WARNING - Page analysis failed for https://darkweb.com: HTTPSConnectionPool(host='darkweb.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host='darkweb.com', port=443): Failed to resolve 'darkweb.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-24 13:06:43,830 - DEBUG - Features extracted for https://darkweb.com: {'url_length': 19, 'has_at_symbol': 0, 'has_dash': 0, 'subdomain_count': 0, 'is_https': 1, 'has_ip_address': 0, 'domain_age_days': 282, 'redirect_count': 0, 'has_login_form': 0, 'has_iframe': 0, 'suspicious_words_count': 0}
+2026-02-24 13:06:43,893 - INFO - URL: https://darkweb.com | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-02-24 13:06:43,895 - WARNING - FORCED HIGH SCORE because all rule-based params are safe
+2026-02-24 13:06:43,898 - INFO - 127.0.0.1 - - [24/Feb/2026 13:06:43] "POST /predict HTTP/1.1" 200 -
+2026-02-24 13:07:03,962 - DEBUG - Starting new HTTPS connection (1): chatgpt.com:443
+2026-02-24 13:07:05,615 - DEBUG - https://chatgpt.com:443 "HEAD /c/699d5293-bf68-8324-8151-a2034f52d759 HTTP/1.1" 403 0
+2026-02-24 13:07:05,626 - DEBUG - Starting new HTTPS connection (1): chatgpt.com:443
+2026-02-24 13:07:06,963 - DEBUG - https://chatgpt.com:443 "GET /c/699d5293-bf68-8324-8151-a2034f52d759 HTTP/1.1" 403 None
+2026-02-24 13:07:06,984 - DEBUG - Features extracted for https://chatgpt.com/c/699d5293-bf68-8324-8151-a2034f52d759: {'url_length': 58, 'has_at_symbol': 0, 'has_dash': 0, 'subdomain_count': 0, 'is_https': 1, 'has_ip_address': 0, 'domain_age_days': 190, 'redirect_count': 0, 'has_login_form': 0, 'has_iframe': 0, 'suspicious_words_count': 0}
+2026-02-24 13:07:07,089 - INFO - URL: https://chatgpt.com/c/699d5293-bf68-8324-8151-a2034f52d759 | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-02-24 13:07:07,089 - WARNING - FORCED HIGH SCORE because all rule-based params are safe
+2026-02-24 13:07:07,091 - INFO - 127.0.0.1 - - [24/Feb/2026 13:07:07] "POST /predict HTTP/1.1" 200 -
+2026-02-24 13:24:37,631 - DEBUG - Starting new HTTPS connection (1): chatgpt.com:443
+2026-02-24 13:24:39,595 - DEBUG - https://chatgpt.com:443 "HEAD /c/699d582f-ce98-8320-a8b1-ab4f438ac336 HTTP/1.1" 403 0
+2026-02-24 13:24:39,607 - DEBUG - Starting new HTTPS connection (1): chatgpt.com:443
+2026-02-24 13:24:40,991 - DEBUG - https://chatgpt.com:443 "GET /c/699d582f-ce98-8320-a8b1-ab4f438ac336 HTTP/1.1" 403 None
+2026-02-24 13:24:41,013 - DEBUG - Features extracted for https://chatgpt.com/c/699d582f-ce98-8320-a8b1-ab4f438ac336: {'url_length': 58, 'has_at_symbol': 0, 'has_dash': 0, 'subdomain_count': 0, 'is_https': 1, 'has_ip_address': 0, 'domain_age_days': 190, 'redirect_count': 0, 'has_login_form': 0, 'has_iframe': 0, 'suspicious_words_count': 0}
+2026-02-24 13:24:41,205 - INFO - URL: https://chatgpt.com/c/699d582f-ce98-8320-a8b1-ab4f438ac336 | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-02-24 13:24:41,206 - WARNING - FORCED HIGH SCORE because all rule-based params are safe
+2026-02-24 13:24:41,210 - INFO - 127.0.0.1 - - [24/Feb/2026 13:24:41] "POST /predict HTTP/1.1" 200 -
+2026-02-27 09:03:30,125 - INFO - Starting WebSafe Detection API...
+2026-02-27 09:04:35,871 - INFO - CatBoost model loaded successfully
+2026-02-27 09:04:38,407 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.8:5000
+2026-02-27 09:04:38,411 - INFO - [33mPress CTRL+C to quit[0m
+2026-02-27 09:04:38,807 - INFO -  * Restarting with watchdog (windowsapi)
+2026-02-27 09:04:47,335 - INFO - Starting WebSafe Detection API...
+2026-02-27 09:04:59,764 - INFO - CatBoost model loaded successfully
+2026-02-27 09:04:59,823 - WARNING -  * Debugger is active!
+2026-02-27 09:04:59,906 - INFO -  * Debugger PIN: 135-251-248
+2026-02-27 09:05:15,342 - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3312.0_x64__qbz5n2kfra8p0\\Lib\\netrc.py', reloading
+2026-02-27 09:05:15,350 - INFO -  * Detected change in 'F:\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3312.0_x64__qbz5n2kfra8p0\\Lib\\netrc.py', reloading
+2026-02-27 09:05:15,360 - DEBUG - Starting new HTTPS connection (1): chrome:443
+2026-02-27 09:05:18,047 - INFO -  * Restarting with watchdog (windowsapi)
+2026-02-27 09:05:26,892 - INFO - Starting WebSafe Detection API...
+2026-02-27 09:05:40,060 - INFO - CatBoost model loaded successfully
+2026-02-27 09:05:40,229 - WARNING -  * Debugger is active!
+2026-02-27 09:05:40,251 - INFO -  * Debugger PIN: 135-251-248
+2026-02-27 09:06:19,444 - DEBUG - Starting new HTTPS connection (1): www.google.com:443
+2026-02-27 09:06:22,375 - DEBUG - https://www.google.com:443 "HEAD / HTTP/1.1" 200 0
+2026-02-27 09:06:22,499 - DEBUG - Starting new HTTPS connection (1): www.google.com:443
+2026-02-27 09:06:24,170 - DEBUG - https://www.google.com:443 "GET / HTTP/1.1" 200 None
+2026-02-27 09:06:24,332 - DEBUG - Features extracted for https://www.google.com: {'url_length': 22, 'has_at_symbol': 0, 'has_dash': 0, 'subdomain_count': 1, 'is_https': 1, 'has_ip_address': 0, 'domain_age_days': 103, 'redirect_count': 0, 'has_login_form': 0, 'has_iframe': 0, 'suspicious_words_count': 0}
+2026-02-27 09:06:24,467 - INFO - URL: https://www.google.com | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-02-27 09:06:24,468 - WARNING - FORCED HIGH SCORE because all rule-based params are safe
+2026-02-27 09:06:24,476 - INFO - 127.0.0.1 - - [27/Feb/2026 09:06:24] "POST /predict HTTP/1.1" 200 -
+2026-02-27 09:08:06,147 - DEBUG - Starting new HTTP connection (1): www.example.com:80
+2026-02-27 09:08:06,288 - DEBUG - http://www.example.com:80 "HEAD / HTTP/1.1" 200 0
+2026-02-27 09:08:06,291 - DEBUG - Starting new HTTP connection (1): www.example.com:80
+2026-02-27 09:08:06,391 - DEBUG - http://www.example.com:80 "GET / HTTP/1.1" 200 None
+2026-02-27 09:08:06,395 - DEBUG - Features extracted for http://www.example.com: {'url_length': 22, 'has_at_symbol': 0, 'has_dash': 0, 'subdomain_count': 1, 'is_https': 0, 'has_ip_address': 0, 'domain_age_days': 214, 'redirect_count': 0, 'has_login_form': 0, 'has_iframe': 0, 'suspicious_words_count': 0}
+2026-02-27 09:08:06,432 - INFO - URL: http://www.example.com | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-02-27 09:08:06,434 - INFO - 127.0.0.1 - - [27/Feb/2026 09:08:06] "POST /predict HTTP/1.1" 200 -
+2026-02-27 09:08:50,378 - DEBUG - Starting new HTTP connection (1): www.raci.it:80
+2026-02-27 09:08:51,063 - DEBUG - http://www.raci.it:80 "HEAD /component/user/reset.html HTTP/1.1" 403 0
+2026-02-27 09:08:51,067 - DEBUG - Starting new HTTP connection (1): www.raci.it:80
+2026-02-27 09:08:51,427 - DEBUG - http://www.raci.it:80 "GET /component/user/reset.html HTTP/1.1" 403 None
+2026-02-27 09:08:51,430 - DEBUG - Features extracted for http://www.raci.it/component/user/reset.html: {'url_length': 44, 'has_at_symbol': 0, 'has_dash': 0, 'subdomain_count': 1, 'is_https': 0, 'has_ip_address': 0, 'domain_age_days': 387, 'redirect_count': 0, 'has_login_form': 0, 'has_iframe': 0, 'suspicious_words_count': 0}
+2026-02-27 09:08:51,457 - INFO - URL: http://www.raci.it/component/user/reset.html | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-02-27 09:08:51,461 - INFO - 127.0.0.1 - - [27/Feb/2026 09:08:51] "POST /predict HTTP/1.1" 200 -
+2026-02-27 09:09:29,599 - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3312.0_x64__qbz5n2kfra8p0\\Lib\\email\\policy.py', reloading
+2026-02-27 09:09:29,614 - INFO -  * Detected change in 'F:\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3312.0_x64__qbz5n2kfra8p0\\Lib\\email\\policy.py', reloading
+2026-02-27 09:09:29,821 - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3312.0_x64__qbz5n2kfra8p0\\Lib\\email\\headerregistry.py', reloading
+2026-02-27 09:09:29,830 - INFO -  * Detected change in 'F:\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3312.0_x64__qbz5n2kfra8p0\\Lib\\email\\headerregistry.py', reloading
+2026-02-27 09:09:30,019 - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3312.0_x64__qbz5n2kfra8p0\\Lib\\email\\_header_value_parser.py', reloading
+2026-02-27 09:09:30,022 - INFO -  * Detected change in 'F:\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3312.0_x64__qbz5n2kfra8p0\\Lib\\email\\_header_value_parser.py', reloading
+2026-02-27 09:09:30,172 - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3312.0_x64__qbz5n2kfra8p0\\Lib\\email\\contentmanager.py', reloading
+2026-02-27 09:09:30,175 - INFO -  * Detected change in 'F:\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3312.0_x64__qbz5n2kfra8p0\\Lib\\email\\contentmanager.py', reloading
+2026-02-27 14:01:24,484 - INFO - Starting WebSafe Detection API...
+2026-02-27 14:01:52,011 - INFO - CatBoost model loaded successfully
+2026-02-27 14:02:06,010 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.48.9.59:5000
+2026-02-27 14:02:06,010 - INFO - [33mPress CTRL+C to quit[0m
+2026-02-27 14:02:06,024 - INFO -  * Restarting with stat
+2026-02-27 14:02:10,735 - INFO - Starting WebSafe Detection API...
+2026-02-27 14:02:14,653 - INFO - CatBoost model loaded successfully
+2026-02-27 14:02:14,686 - WARNING -  * Debugger is active!
+2026-02-27 14:02:14,863 - INFO -  * Debugger PIN: 129-949-582
+2026-02-27 14:03:05,807 - DEBUG - Starting new HTTPS connection (1): chrome:443
+2026-02-27 14:03:08,575 - WARNING - Failed to count redirects for https://chrome://newtab/: HTTPSConnectionPool(host='chrome', port=443): Max retries exceeded with url: /newtab/ (Caused by NameResolutionError("HTTPSConnection(host='chrome', port=443): Failed to resolve 'chrome' ([Errno 11001] getaddrinfo failed)"))
+2026-02-27 14:03:08,579 - DEBUG - Starting new HTTPS connection (1): chrome:443
+2026-02-27 14:03:11,290 - WARNING - Page analysis failed for https://chrome://newtab/: HTTPSConnectionPool(host='chrome', port=443): Max retries exceeded with url: /newtab/ (Caused by NameResolutionError("HTTPSConnection(host='chrome', port=443): Failed to resolve 'chrome' ([Errno 11001] getaddrinfo failed)"))
+2026-02-27 14:03:11,292 - DEBUG - Features extracted for https://chrome://newtab/: {'url_length': 24, 'has_at_symbol': 0, 'has_dash': 0, 'subdomain_count': 0, 'is_https': 1, 'has_ip_address': 0, 'domain_age_days': 132, 'redirect_count': 0, 'has_login_form': 0, 'has_iframe': 0, 'suspicious_words_count': 0}
+2026-02-27 14:03:12,274 - INFO - URL: https://chrome://newtab/ | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-02-27 14:03:12,275 - WARNING - FORCED HIGH SCORE because all rule-based params are safe
+2026-02-27 14:03:12,376 - INFO - 127.0.0.1 - - [27/Feb/2026 14:03:12] "POST /predict HTTP/1.1" 200 -
+2026-02-27 14:03:28,203 - DEBUG - Starting new HTTPS connection (1): www.google.com:443
+2026-02-27 14:03:30,884 - DEBUG - https://www.google.com:443 "HEAD / HTTP/1.1" 200 0
+2026-02-27 14:03:30,914 - DEBUG - Starting new HTTPS connection (1): www.google.com:443
+2026-02-27 14:03:32,902 - DEBUG - https://www.google.com:443 "GET / HTTP/1.1" 200 None
+2026-02-27 14:03:33,154 - DEBUG - Features extracted for https://www.google.com: {'url_length': 22, 'has_at_symbol': 0, 'has_dash': 0, 'subdomain_count': 1, 'is_https': 1, 'has_ip_address': 0, 'domain_age_days': 108, 'redirect_count': 0, 'has_login_form': 0, 'has_iframe': 0, 'suspicious_words_count': 0}
+2026-02-27 14:03:33,266 - INFO - URL: https://www.google.com | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-02-27 14:03:33,267 - WARNING - FORCED HIGH SCORE because all rule-based params are safe
+2026-02-27 14:03:33,268 - INFO - 127.0.0.1 - - [27/Feb/2026 14:03:33] "POST /predict HTTP/1.1" 200 -
+2026-02-27 14:04:20,897 - DEBUG - Starting new HTTPS connection (1): www.brave.com:443
+2026-02-27 14:04:23,518 - DEBUG - https://www.brave.com:443 "HEAD / HTTP/1.1" 301 0
+2026-02-27 14:04:23,526 - DEBUG - Starting new HTTPS connection (1): brave.com:443
+2026-02-27 14:04:26,126 - DEBUG - https://brave.com:443 "HEAD / HTTP/1.1" 200 0
+2026-02-27 14:04:26,141 - DEBUG - Starting new HTTPS connection (1): www.brave.com:443
+2026-02-27 14:04:28,055 - DEBUG - https://www.brave.com:443 "GET / HTTP/1.1" 301 0
+2026-02-27 14:04:28,059 - DEBUG - Starting new HTTPS connection (1): brave.com:443
+2026-02-27 14:04:30,782 - DEBUG - https://brave.com:443 "GET / HTTP/1.1" 200 None
+2026-02-27 14:04:31,100 - DEBUG - Features extracted for https://www.brave.com: {'url_length': 21, 'has_at_symbol': 0, 'has_dash': 0, 'subdomain_count': 1, 'is_https': 1, 'has_ip_address': 0, 'domain_age_days': 216, 'redirect_count': 1, 'has_login_form': 0, 'has_iframe': 0, 'suspicious_words_count': 0}
+2026-02-27 14:04:31,177 - INFO - URL: https://www.brave.com | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-02-27 14:04:31,178 - WARNING - FORCED HIGH SCORE because all rule-based params are safe
+2026-02-27 14:04:31,181 - INFO - 127.0.0.1 - - [27/Feb/2026 14:04:31] "POST /predict HTTP/1.1" 200 -
+2026-02-27 14:04:36,347 - DEBUG - Starting new HTTPS connection (1): www.google.com:443
+2026-02-27 14:04:39,596 - DEBUG - https://www.google.com:443 "HEAD / HTTP/1.1" 200 0
+2026-02-27 14:04:39,615 - DEBUG - Starting new HTTPS connection (1): www.google.com:443
+2026-02-27 14:04:41,541 - DEBUG - https://www.google.com:443 "GET / HTTP/1.1" 200 None
+2026-02-27 14:04:41,635 - DEBUG - Features extracted for https://www.google.com: {'url_length': 22, 'has_at_symbol': 0, 'has_dash': 0, 'subdomain_count': 1, 'is_https': 1, 'has_ip_address': 0, 'domain_age_days': 108, 'redirect_count': 0, 'has_login_form': 0, 'has_iframe': 0, 'suspicious_words_count': 0}
+2026-02-27 14:04:41,706 - INFO - URL: https://www.google.com | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-02-27 14:04:41,706 - WARNING - FORCED HIGH SCORE because all rule-based params are safe
+2026-02-27 14:04:41,709 - INFO - 127.0.0.1 - - [27/Feb/2026 14:04:41] "POST /predict HTTP/1.1" 200 -
+2026-02-27 14:10:00,483 - DEBUG - Starting new HTTPS connection (1): www.google.com:443
+2026-02-27 14:10:02,334 - DEBUG - https://www.google.com:443 "HEAD / HTTP/1.1" 200 0
+2026-02-27 14:10:02,347 - DEBUG - Starting new HTTPS connection (1): www.google.com:443
+2026-02-27 14:10:04,198 - DEBUG - https://www.google.com:443 "GET / HTTP/1.1" 200 None
+2026-02-27 14:10:04,272 - DEBUG - Features extracted for https://www.google.com: {'url_length': 22, 'has_at_symbol': 0, 'has_dash': 0, 'subdomain_count': 1, 'is_https': 1, 'has_ip_address': 0, 'domain_age_days': 108, 'redirect_count': 0, 'has_login_form': 0, 'has_iframe': 0, 'suspicious_words_count': 0}
+2026-02-27 14:10:04,341 - INFO - URL: https://www.google.com | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-02-27 14:10:04,342 - WARNING - FORCED HIGH SCORE because all rule-based params are safe
+2026-02-27 14:10:04,346 - INFO - 127.0.0.1 - - [27/Feb/2026 14:10:04] "POST /predict HTTP/1.1" 200 -
+2026-02-27 14:10:29,660 - DEBUG - Starting new HTTP connection (1): www.garage-pirenne.be:80
+2026-02-27 14:10:31,716 - DEBUG - http://www.garage-pirenne.be:80 "HEAD /index.php?option=com_content&view=article&id=70&vsig70_0=15 HTTP/1.1" 200 0
+2026-02-27 14:10:31,722 - DEBUG - Starting new HTTP connection (1): www.garage-pirenne.be:80
+2026-02-27 14:10:32,363 - DEBUG - http://www.garage-pirenne.be:80 "GET /index.php?option=com_content&view=article&id=70&vsig70_0=15 HTTP/1.1" 200 614
+2026-02-27 14:10:32,370 - DEBUG - Features extracted for http://www.garage-pirenne.be/index.php?option=com_content&view=article&id=70&vsig70_0=15: {'url_length': 88, 'has_at_symbol': 0, 'has_dash': 1, 'subdomain_count': 1, 'is_https': 0, 'has_ip_address': 0, 'domain_age_days': 349, 'redirect_count': 0, 'has_login_form': 0, 'has_iframe': 0, 'suspicious_words_count': 0}
+2026-02-27 14:10:32,427 - INFO - URL: http://www.garage-pirenne.be/index.php?option=com_content&view=article&id=70&vsig70_0=15 | Raw prediction: 1 | Probabilities: [0.35, 0.65]
+2026-02-27 14:10:32,429 - INFO - 127.0.0.1 - - [27/Feb/2026 14:10:32] "POST /predict HTTP/1.1" 200 -
+2026-02-27 14:13:10,215 - DEBUG - Starting new HTTP connection (1): adventure-nicaragua.net:80
+2026-02-27 14:13:10,745 - WARNING - Failed to count redirects for http://adventure-nicaragua.net/index.php?option=com_mailto&tmpl=component&link=aHR0cDovL2FkdmVudHVyZS1uaWNhcmFndWEubmV0L2luZGV4LnBocD9vcHRpb249Y29tX2NvbnRlbnQmdmlldz1hcnRpY2xlJmlkPTQ3OmFib3V0JmNhdGlkPTM2OmRlbW8tYXJ0aWNsZXMmSXRlbWlkPTU0tab/: HTTPConnectionPool(host='adventure-nicaragua.net', port=80): Max retries exceeded with url: /index.php?option=com_mailto&tmpl=component&link=aHR0cDovL2FkdmVudHVyZS1uaWNhcmFndWEubmV0L2luZGV4LnBocD9vcHRpb249Y29tX2NvbnRlbnQmdmlldz1hcnRpY2xlJmlkPTQ3OmFib3V0JmNhdGlkPTM2OmRlbW8tYXJ0aWNsZXMmSXRlbWlkPTU0tab/ (Caused by NameResolutionError("HTTPConnection(host='adventure-nicaragua.net', port=80): Failed to resolve 'adventure-nicaragua.net' ([Errno 11001] getaddrinfo failed)"))
+2026-02-27 14:13:10,749 - DEBUG - Starting new HTTP connection (1): adventure-nicaragua.net:80
+2026-02-27 14:13:10,751 - WARNING - Page analysis failed for http://adventure-nicaragua.net/index.php?option=com_mailto&tmpl=component&link=aHR0cDovL2FkdmVudHVyZS1uaWNhcmFndWEubmV0L2luZGV4LnBocD9vcHRpb249Y29tX2NvbnRlbnQmdmlldz1hcnRpY2xlJmlkPTQ3OmFib3V0JmNhdGlkPTM2OmRlbW8tYXJ0aWNsZXMmSXRlbWlkPTU0tab/: HTTPConnectionPool(host='adventure-nicaragua.net', port=80): Max retries exceeded with url: /index.php?option=com_mailto&tmpl=component&link=aHR0cDovL2FkdmVudHVyZS1uaWNhcmFndWEubmV0L2luZGV4LnBocD9vcHRpb249Y29tX2NvbnRlbnQmdmlldz1hcnRpY2xlJmlkPTQ3OmFib3V0JmNhdGlkPTM2OmRlbW8tYXJ0aWNsZXMmSXRlbWlkPTU0tab/ (Caused by NameResolutionError("HTTPConnection(host='adventure-nicaragua.net', port=80): Failed to resolve 'adventure-nicaragua.net' ([Errno 11001] getaddrinfo failed)"))
+2026-02-27 14:13:10,751 - DEBUG - Features extracted for http://adventure-nicaragua.net/index.php?option=com_mailto&tmpl=component&link=aHR0cDovL2FkdmVudHVyZS1uaWNhcmFndWEubmV0L2luZGV4LnBocD9vcHRpb249Y29tX2NvbnRlbnQmdmlldz1hcnRpY2xlJmlkPTQ3OmFib3V0JmNhdGlkPTM2OmRlbW8tYXJ0aWNsZXMmSXRlbWlkPTU0tab/: {'url_length': 239, 'has_at_symbol': 0, 'has_dash': 1, 'subdomain_count': 0, 'is_https': 0, 'has_ip_address': 0, 'domain_age_days': 138, 'redirect_count': 0, 'has_login_form': 0, 'has_iframe': 0, 'suspicious_words_count': 0}
+2026-02-27 14:13:10,814 - INFO - URL: http://adventure-nicaragua.net/index.php?option=com_mailto&tmpl=component&link=aHR0cDovL2FkdmVudHVyZS1uaWNhcmFndWEubmV0L2luZGV4LnBocD9vcHRpb249Y29tX2NvbnRlbnQmdmlldz1hcnRpY2xlJmlkPTQ3OmFib3V0JmNhdGlkPTM2OmRlbW8tYXJ0aWNsZXMmSXRlbWlkPTU0tab/ | Raw prediction: 1 | Probabilities: [0.35, 0.65]
+2026-02-27 14:13:10,821 - INFO - 127.0.0.1 - - [27/Feb/2026 14:13:10] "POST /predict HTTP/1.1" 200 -
+2026-02-27 14:13:33,145 - INFO - 127.0.0.1 - - [27/Feb/2026 14:13:33] "[31m[1mPOST /predict HTTP/1.1[0m" 400 -
+2026-02-27 14:13:48,708 - DEBUG - Starting new HTTP connection (1): signin.eby.de.zukruygxctzmmqi.civpro.co.za:80
+2026-02-27 14:13:49,069 - WARNING - Failed to count redirects for http://signin.eby.de.zukruygxctzmmqi.civpro.co.za: HTTPConnectionPool(host='signin.eby.de.zukruygxctzmmqi.civpro.co.za', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host='signin.eby.de.zukruygxctzmmqi.civpro.co.za', port=80): Failed to resolve 'signin.eby.de.zukruygxctzmmqi.civpro.co.za' ([Errno 11001] getaddrinfo failed)"))
+2026-02-27 14:13:49,072 - DEBUG - Starting new HTTP connection (1): signin.eby.de.zukruygxctzmmqi.civpro.co.za:80
+2026-02-27 14:13:49,073 - WARNING - Page analysis failed for http://signin.eby.de.zukruygxctzmmqi.civpro.co.za: HTTPConnectionPool(host='signin.eby.de.zukruygxctzmmqi.civpro.co.za', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host='signin.eby.de.zukruygxctzmmqi.civpro.co.za', port=80): Failed to resolve 'signin.eby.de.zukruygxctzmmqi.civpro.co.za' ([Errno 11001] getaddrinfo failed)"))
+2026-02-27 14:13:49,074 - DEBUG - Features extracted for http://signin.eby.de.zukruygxctzmmqi.civpro.co.za: {'url_length': 49, 'has_at_symbol': 0, 'has_dash': 0, 'subdomain_count': 5, 'is_https': 0, 'has_ip_address': 0, 'domain_age_days': 312, 'redirect_count': 0, 'has_login_form': 0, 'has_iframe': 0, 'suspicious_words_count': 0}
+2026-02-27 14:13:49,131 - INFO - URL: http://signin.eby.de.zukruygxctzmmqi.civpro.co.za | Raw prediction: 0 | Probabilities: [0.57, 0.43]
+2026-02-27 14:13:49,134 - INFO - 127.0.0.1 - - [27/Feb/2026 14:13:49] "POST /predict HTTP/1.1" 200 -
+2026-02-27 14:59:00,064 - DEBUG - Starting new HTTPS connection (1): www.google.com:443
+2026-02-27 14:59:03,094 - DEBUG - https://www.google.com:443 "HEAD / HTTP/1.1" 200 0
+2026-02-27 14:59:03,199 - DEBUG - Starting new HTTPS connection (1): www.google.com:443
+2026-02-27 14:59:05,761 - DEBUG - https://www.google.com:443 "GET / HTTP/1.1" 200 None
+2026-02-27 14:59:05,920 - DEBUG - Features extracted for https://www.google.com: {'url_length': 22, 'has_at_symbol': 0, 'has_dash': 0, 'subdomain_count': 1, 'is_https': 1, 'has_ip_address': 0, 'domain_age_days': 108, 'redirect_count': 0, 'has_login_form': 0, 'has_iframe': 0, 'suspicious_words_count': 0}
+2026-02-27 14:59:06,019 - INFO - URL: https://www.google.com | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-02-27 14:59:06,019 - WARNING - FORCED HIGH SCORE because all rule-based params are safe
+2026-02-27 14:59:06,026 - INFO - 127.0.0.1 - - [27/Feb/2026 14:59:06] "POST /predict HTTP/1.1" 200 -
+2026-02-27 15:24:18,575 - INFO - Starting WebSafe Detection API...
+2026-02-27 15:25:03,515 - INFO - CatBoost model loaded successfully
+2026-02-27 15:25:06,690 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.48.9.59:5000
+2026-02-27 15:25:06,691 - INFO - [33mPress CTRL+C to quit[0m
+2026-02-27 15:25:06,716 - INFO -  * Restarting with stat
+2026-02-27 15:25:14,992 - INFO - Starting WebSafe Detection API...
+2026-02-27 15:25:20,394 - INFO - CatBoost model loaded successfully
+2026-02-27 15:25:20,438 - WARNING -  * Debugger is active!
+2026-02-27 15:25:20,589 - INFO -  * Debugger PIN: 129-949-582
+2026-02-27 15:25:22,909 - DEBUG - Starting new HTTPS connection (1): www.google.com:443
+2026-02-27 15:25:22,910 - DEBUG - Starting new HTTPS connection (1): www.google.com:443
+2026-02-27 15:25:25,818 - DEBUG - https://www.google.com:443 "HEAD / HTTP/1.1" 200 0
+2026-02-27 15:25:25,827 - DEBUG - Starting new HTTPS connection (1): www.google.com:443
+2026-02-27 15:25:25,840 - DEBUG - https://www.google.com:443 "HEAD / HTTP/1.1" 200 0
+2026-02-27 15:25:25,849 - DEBUG - Starting new HTTPS connection (1): www.google.com:443
+2026-02-27 15:25:28,364 - DEBUG - https://www.google.com:443 "GET / HTTP/1.1" 200 None
+2026-02-27 15:25:28,589 - DEBUG - https://www.google.com:443 "GET / HTTP/1.1" 200 None
+2026-02-27 15:25:28,623 - DEBUG - Features extracted for https://www.google.com: {'url_length': 22, 'has_at_symbol': 0, 'has_dash': 0, 'subdomain_count': 1, 'is_https': 1, 'has_ip_address': 0, 'domain_age_days': 173, 'redirect_count': 0, 'has_login_form': 0, 'has_iframe': 0, 'suspicious_words_count': 0}
+2026-02-27 15:25:28,688 - DEBUG - Features extracted for https://www.google.com: {'url_length': 22, 'has_at_symbol': 0, 'has_dash': 0, 'subdomain_count': 1, 'is_https': 1, 'has_ip_address': 0, 'domain_age_days': 173, 'redirect_count': 0, 'has_login_form': 0, 'has_iframe': 0, 'suspicious_words_count': 0}
+2026-02-27 15:25:28,791 - INFO - URL: https://www.google.com | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-02-27 15:25:28,797 - WARNING - FORCED HIGH SCORE because all rule-based params are safe
+2026-02-27 15:25:28,801 - INFO - 127.0.0.1 - - [27/Feb/2026 15:25:28] "POST /predict HTTP/1.1" 200 -
+2026-02-27 15:25:28,807 - INFO - URL: https://www.google.com | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-02-27 15:25:28,809 - WARNING - FORCED HIGH SCORE because all rule-based params are safe
+2026-02-27 15:25:28,812 - INFO - 127.0.0.1 - - [27/Feb/2026 15:25:28] "POST /predict HTTP/1.1" 200 -
+2026-02-27 15:26:30,612 - DEBUG - Starting new HTTPS connection (1): www.google.com:443
+2026-02-27 15:26:36,800 - DEBUG - https://www.google.com:443 "HEAD / HTTP/1.1" 200 0
+2026-02-27 15:26:36,810 - DEBUG - Starting new HTTPS connection (1): www.google.com:443
+2026-02-27 15:26:39,018 - DEBUG - https://www.google.com:443 "GET / HTTP/1.1" 200 None
+2026-02-27 15:26:39,051 - DEBUG - Features extracted for https://www.google.com: {'url_length': 22, 'has_at_symbol': 0, 'has_dash': 0, 'subdomain_count': 1, 'is_https': 1, 'has_ip_address': 0, 'domain_age_days': 173, 'redirect_count': 0, 'has_login_form': 0, 'has_iframe': 0, 'suspicious_words_count': 0}
+2026-02-27 15:26:39,246 - INFO - URL: https://www.google.com | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-02-27 15:26:39,247 - WARNING - FORCED HIGH SCORE because all rule-based params are safe
+2026-02-27 15:26:39,265 - INFO - 127.0.0.1 - - [27/Feb/2026 15:26:39] "POST /predict HTTP/1.1" 200 -
+2026-02-27 15:27:10,732 - DEBUG - Starting new HTTP connection (1): signin.eby.de.zukruygxctzmmqi.civpro.co.za:80
+2026-02-27 15:27:11,380 - WARNING - Failed to count redirects for http://signin.eby.de.zukruygxctzmmqi.civpro.co.za: HTTPConnectionPool(host='signin.eby.de.zukruygxctzmmqi.civpro.co.za', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host='signin.eby.de.zukruygxctzmmqi.civpro.co.za', port=80): Failed to resolve 'signin.eby.de.zukruygxctzmmqi.civpro.co.za' ([Errno 11001] getaddrinfo failed)"))
+2026-02-27 15:27:11,384 - DEBUG - Starting new HTTP connection (1): signin.eby.de.zukruygxctzmmqi.civpro.co.za:80
+2026-02-27 15:27:11,386 - WARNING - Page analysis failed for http://signin.eby.de.zukruygxctzmmqi.civpro.co.za: HTTPConnectionPool(host='signin.eby.de.zukruygxctzmmqi.civpro.co.za', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host='signin.eby.de.zukruygxctzmmqi.civpro.co.za', port=80): Failed to resolve 'signin.eby.de.zukruygxctzmmqi.civpro.co.za' ([Errno 11001] getaddrinfo failed)"))
+2026-02-27 15:27:11,386 - DEBUG - Features extracted for http://signin.eby.de.zukruygxctzmmqi.civpro.co.za: {'url_length': 49, 'has_at_symbol': 0, 'has_dash': 0, 'subdomain_count': 5, 'is_https': 0, 'has_ip_address': 0, 'domain_age_days': 283, 'redirect_count': 0, 'has_login_form': 0, 'has_iframe': 0, 'suspicious_words_count': 0}
+2026-02-27 15:27:11,457 - INFO - URL: http://signin.eby.de.zukruygxctzmmqi.civpro.co.za | Raw prediction: 0 | Probabilities: [0.57, 0.43]
+2026-02-27 15:27:11,458 - INFO - 127.0.0.1 - - [27/Feb/2026 15:27:11] "POST /predict HTTP/1.1" 200 -
+2026-02-27 15:27:55,536 - DEBUG - Starting new HTTPS connection (1): iem.edu.in:443
+2026-02-27 15:27:57,456 - DEBUG - https://iem.edu.in:443 "HEAD / HTTP/1.1" 200 0
+2026-02-27 15:27:57,465 - DEBUG - Starting new HTTPS connection (1): iem.edu.in:443
+2026-02-27 15:27:59,715 - DEBUG - https://iem.edu.in:443 "GET / HTTP/1.1" 200 None
+2026-02-27 15:28:00,232 - DEBUG - Features extracted for https://iem.edu.in/: {'url_length': 19, 'has_at_symbol': 0, 'has_dash': 0, 'subdomain_count': 1, 'is_https': 1, 'has_ip_address': 0, 'domain_age_days': 104, 'redirect_count': 0, 'has_login_form': 0, 'has_iframe': 1, 'suspicious_words_count': 0}
+2026-02-27 15:28:00,295 - INFO - URL: https://iem.edu.in/ | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-02-27 15:28:00,297 - WARNING - FORCED HIGH SCORE because all rule-based params are safe
+2026-02-27 15:28:00,298 - INFO - 127.0.0.1 - - [27/Feb/2026 15:28:00] "POST /predict HTTP/1.1" 200 -
+2026-03-07 12:46:31,068 - INFO - Starting WebSafe Detection API...
+2026-03-07 12:47:15,883 - INFO - CatBoost model loaded successfully
+2026-03-07 12:47:18,485 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.6:5000
+2026-03-07 12:47:18,488 - INFO - [33mPress CTRL+C to quit[0m
+2026-03-07 12:47:18,563 - INFO -  * Restarting with stat
+2026-03-07 12:47:24,725 - INFO - Starting WebSafe Detection API...
+2026-03-07 12:47:30,195 - INFO - CatBoost model loaded successfully
+2026-03-07 12:47:30,247 - WARNING -  * Debugger is active!
+2026-03-07 12:47:30,429 - INFO -  * Debugger PIN: 129-949-582
+2026-03-07 12:47:44,240 - DEBUG - Starting new HTTP connection (1): signin.eby.de.zukruygxctzmmqi.civpro.co.za:80
+2026-03-07 12:47:44,643 - WARNING - Failed to count redirects for http://signin.eby.de.zukruygxctzmmqi.civpro.co.za: HTTPConnectionPool(host='signin.eby.de.zukruygxctzmmqi.civpro.co.za', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host='signin.eby.de.zukruygxctzmmqi.civpro.co.za', port=80): Failed to resolve 'signin.eby.de.zukruygxctzmmqi.civpro.co.za' ([Errno 11001] getaddrinfo failed)"))
+2026-03-07 12:47:44,647 - DEBUG - Starting new HTTP connection (1): signin.eby.de.zukruygxctzmmqi.civpro.co.za:80
+2026-03-07 12:47:44,649 - WARNING - Page analysis failed for http://signin.eby.de.zukruygxctzmmqi.civpro.co.za: HTTPConnectionPool(host='signin.eby.de.zukruygxctzmmqi.civpro.co.za', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host='signin.eby.de.zukruygxctzmmqi.civpro.co.za', port=80): Failed to resolve 'signin.eby.de.zukruygxctzmmqi.civpro.co.za' ([Errno 11001] getaddrinfo failed)"))
+2026-03-07 12:47:44,649 - DEBUG - Features extracted for http://signin.eby.de.zukruygxctzmmqi.civpro.co.za: {'url_length': 49, 'has_at_symbol': 0, 'has_dash': 0, 'subdomain_count': 5, 'is_https': 0, 'has_ip_address': 0, 'domain_age_days': 333, 'redirect_count': 0, 'has_login_form': 0, 'has_iframe': 0, 'suspicious_words_count': 0}
+2026-03-07 12:47:44,990 - INFO - URL: http://signin.eby.de.zukruygxctzmmqi.civpro.co.za | Raw prediction: 0 | Probabilities: [0.57, 0.43]
+2026-03-07 12:47:44,993 - INFO - 127.0.0.1 - - [07/Mar/2026 12:47:44] "POST /predict HTTP/1.1" 200 -
